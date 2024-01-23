@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/serrakhi-portfolio/static/css/main.2713419f.css",
+    "main.js": "/serrakhi-portfolio/static/js/main.90216418.js",
+    "static/js/787.9659f834.chunk.js": "/serrakhi-portfolio/static/js/787.9659f834.chunk.js",
+    "static/media/Advanced react.jpg": "/serrakhi-portfolio/static/media/Advanced react.f56658ee97e615197cb3.jpg",
+    "static/media/profile.png": "/serrakhi-portfolio/static/media/profile.2d7817628f19213a677c.png",
+    "static/media/Coursera-html-css-1.png": "/serrakhi-portfolio/static/media/Coursera-html-css-1.89e5e994b8bbc3c56ea5.png",
+    "static/media/Coursera-python2.png": "/serrakhi-portfolio/static/media/Coursera-python2.71d12664fd5969f462a3.png",
+    "static/media/Coursera (programming with js)-1.png": "/serrakhi-portfolio/static/media/Coursera (programming with js)-1.acd01908e3685ec8d1d9.png",
+    "static/media/Coursera-react-basics-1.png": "/serrakhi-portfolio/static/media/Coursera-react-basics-1.891a79dcdf7c1d728907.png",
+    "static/media/Coursera (intro front-end)-1.png": "/serrakhi-portfolio/static/media/Coursera (intro front-end)-1.7f584e857bd16a178ca7.png",
+    "static/media/GIT 1 GITHUB-1.png": "/serrakhi-portfolio/static/media/GIT 1 GITHUB-1.7fc30b7670c50e675c0a.png",
+    "static/media/Coursera-python1.png": "/serrakhi-portfolio/static/media/Coursera-python1.9026927c09f61f5d4948.png",
+    "static/media/maven-1.png": "/serrakhi-portfolio/static/media/maven-1.6db4472e868d6c60fa43.png",
+    "static/media/open spring boot 2-1.png": "/serrakhi-portfolio/static/media/open spring boot 2-1.abb6611ad8e851e04dca.png",
+    "static/media/php openclassroom-1.png": "/serrakhi-portfolio/static/media/php openclassroom-1.3a3c9c72de282df9b403.png",
+    "static/media/open springboot1-1.png": "/serrakhi-portfolio/static/media/open springboot1-1.3583f2269e563faed08a.png",
+    "static/media/bg-header.png": "/serrakhi-portfolio/static/media/bg-header.7731f4f316d2c0995cf5.png",
+    "static/media/project-5.jpg": "/serrakhi-portfolio/static/media/project-5.56272799ec572fdf369d.jpg",
+    "static/media/project-3.jpg": "/serrakhi-portfolio/static/media/project-3.d6a24987f950e0b1e029.jpg",
+    "static/media/project-4.jpg": "/serrakhi-portfolio/static/media/project-4.4339c8c6190d48482486.jpg",
+    "static/media/project-2.jpg": "/serrakhi-portfolio/static/media/project-2.04887b16547603aa0a3d.jpg",
+    "static/media/bg-icon.png": "/serrakhi-portfolio/static/media/bg-icon.a4d2f50fc383e8c7664b.png",
+    "static/media/project-6.jpg": "/serrakhi-portfolio/static/media/project-6.07d9992002b94482ab3d.jpg",
+    "index.html": "/serrakhi-portfolio/index.html",
+    "main.2713419f.css.map": "/serrakhi-portfolio/static/css/main.2713419f.css.map",
+    "main.90216418.js.map": "/serrakhi-portfolio/static/js/main.90216418.js.map",
+    "787.9659f834.chunk.js.map": "/serrakhi-portfolio/static/js/787.9659f834.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2713419f.css",
+    "static/js/main.90216418.js"
+  ]
+}
