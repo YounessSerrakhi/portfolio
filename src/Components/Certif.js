@@ -100,7 +100,7 @@ export default function Certif() {
 
 
   return (
-    <div className="container-fluid bg-light my-5 py-6" id="service">
+    <div className="container-fluid bg-light my-5 py-6" id="certif">
       <div className="container">
         <div className="row g-5 mb-5">
           <div className="col-lg-6">
