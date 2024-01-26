@@ -15,6 +15,7 @@ function App() {
     <Home/>
     <Skils/>
     <Certif/>
+    <Project/>
     <Contact/>
     <Footer/>
     </>
