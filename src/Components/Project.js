@@ -18,12 +18,19 @@ export default function Project() {
         externalLink: 'https://younessserrakhi.github.io/medicyFront',
     },
     {
-        title: 'Web Applications to manage a conferences of Fst Marrakech',
+        title: 'Web Applications to manage conferences in Fst Marrakech',
         description: 'This project is a web application to manage conferences of Fstg Marrakech, it allows the user to manage the conferences, the speakers, the participants, the sessions, the papers, the reviews...\n it can easly change from conference to another. ',
         tools: 'Laravel - PHP - MySQL - ORM - HTML - CSS - Bootstrap - Javascript - React - Axios - Git - Github ',
         imagesUrl: [require('../Assets/img/FstgConference/Capture d’écran (236).png'), require('../Assets/img/FstgConference/Capture d’écran (237).png'), require('../Assets/img/FstgConference/Capture d’écran (238).png'), require('../Assets/img/FstgConference/Capture d’écran (239).png'), require('../Assets/img/FstgConference/Capture d’écran (240).png'), require('../Assets/img/FstgConference/Capture d’écran (241).png'), require('../Assets/img/FstgConference/Capture d’écran (242).png'), require('../Assets/img/FstgConference/Capture d’écran (243).png'), require('../Assets/img/FstgConference/Capture d’écran (244).png'), require('../Assets/img/FstgConference/Capture d’écran (245).png'), require('../Assets/img/FstgConference/Capture d’écran (246).png'), require('../Assets/img/FstgConference/Capture d’écran (247).png'), require('../Assets/img/FstgConference/Capture d’écran (248).png'), require('../Assets/img/FstgConference/Capture d’écran (249).png'), require('../Assets/img/FstgConference/Capture d’écran (250).png'), require('../Assets/img/FstgConference/Capture d’écran (251).png'), require('../Assets/img/FstgConference/Capture d’écran (252).png'), require('../Assets/img/FstgConference/Capture d’écran (253).png')],
         githubLink: 'https://github.com/YounessSerrakhi/conferenceClient',
         externalLink: 'https://younessserrakhi.github.io/conferenceClient',
+    },
+    {
+        title: 'Web-CHATBOT Applications to ask your pdf',
+        description: 'This a chatbot project, driven by GPT-3.5, excels in natural language processing within the context of uploaded PDFs. It supports multilingual conversations, seamlessly integrates with web technologies, and delivers context-aware responses. The addition of voice interaction enhances user experience. With a built-in Q&A historical log, the chatbot project proves to be an efficient and accessible tool for developers and users alike.',
+        tools: 'Next.js - TypeScript (TSX) - GPT-3.5 API (embedding/natural language response) - Pinecon - Langchain - Axios - HTML & CSS - Git - GitHub',
+        imagesUrl: [require('../Assets/img/chatbot/Capture d’écran (254).png'), require('../Assets/img/chatbot/Capture d’écran (255).png'), require('../Assets/img/chatbot/Capture d’écran (256).png')],
+        githubLink: 'https://github.com/YounessSerrakhi/irisi-chatbot',
     },
 ];
 
@@ -72,7 +79,10 @@ export default function Project() {
                             </a>
                             )}
                         </div>
-                    </div>
+                        <div className="portfolio-info">
+                            <h5>{project.title}</h5>
+                        </div>
+                    </div> 
                 </div>
             ))}
             </div>

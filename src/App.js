@@ -1,6 +1,6 @@
 import './Assets/css/style.css';
 import './Assets/css/bootstrap.min.css'
-import Navbar from './Components/Navbar';
+import Navbar from './Components/MyNavbar';
 import Home from './Components/Home';
 import Skils from './Components/Skils';
 import Project from './Components/Project';

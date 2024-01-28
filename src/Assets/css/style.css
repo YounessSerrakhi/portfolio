@@ -204,6 +204,42 @@
   padding-bottom: 30px !important;
 }
 
+#portfolio-flters li {
+  display: inline-block;
+  font-weight: 500;
+  color: var(--dark);
+  cursor: pointer;
+  transition: .5s;
+  border-bottom: 2px solid transparent;
+}
+
+#portfolio-flters li:hover,
+#portfolio-flters li.active {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.portfolio-img {
+  position: relative;
+}
+
+.portfolio-info {
+  position: absolute;
+  width: 100%;
+  top: 0; /* Set to top */
+  left: 0;
+  opacity: 0;
+  transition: .5s;
+  text-align: center; /* Center the title */
+  padding: 20px;
+}
+
+.portfolio-item:hover .portfolio-btn,
+.portfolio-item:hover .portfolio-info {
+  opacity: 1;
+  padding-bottom: 30px !important;
+}
+
 
 /*** Team ***/
 .team-item img {

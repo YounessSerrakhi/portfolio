@@ -31,10 +31,10 @@ export default function Skils() {
       }, []);
     
   return (
-    <div class={`container-xxl py-6 pb-5`} id="skill"  ref={skilsRef}>
+    <div class={`container-xxl py-6 pb-5`} id="skils" ref={skilsRef}>
         <div class={`container `}>
             <div class="row g-5">
-                <div class={`col-lg-6 ${display}`}>
+                <div id="skill" class={`col-lg-6 ${display}`}>
                     <h1 class="display-5 mb-5">Skills & Experience</h1>
                     <p class="mb-4">I'm a passionate software engineering student based in Morocco. In my second year of studies at IRISI (FST Marrakech), I am focused on honing my skills in full-stack development and exploring various technologies.</p>
                     <h3 class="mb-4">My Skills</h3>
@@ -99,7 +99,7 @@ export default function Skils() {
                         </div>
                     </div>
                 </div>
-                <div class={`col-lg-6 ${display}`} style={{transitionDelay: '0.5s, 0.5s'}}>
+                <div id="formations"class={`col-lg-6 ${display}`} style={{transitionDelay: '0.5s, 0.5s'}}>
                     <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
                         <li class="nav-item w-50">
                             <button className={`nav-link w-100 py-3 fs-5 
