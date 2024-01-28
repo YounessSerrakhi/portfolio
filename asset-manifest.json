@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.59684422.css",
-    "main.js": "/portfolio/static/js/main.cb8042b4.js",
+    "main.css": "/portfolio/static/css/main.72a2c318.css",
+    "main.js": "/portfolio/static/js/main.7ba4c08f.js",
     "static/js/787.9659f834.chunk.js": "/portfolio/static/js/787.9659f834.chunk.js",
     "static/media/Advanced react.jpg": "/portfolio/static/media/Advanced react.f56658ee97e615197cb3.jpg",
     "static/media/Capture d’écran (236).png": "/portfolio/static/media/Capture d’écran (236).27ebf35b0aeec31472a7.png",
     "static/media/Capture d’écran (217).png": "/portfolio/static/media/Capture d’écran (217).6c1b9614945863473934.png",
+    "static/media/Capture d’écran (255).png": "/portfolio/static/media/Capture d’écran (255).7e042ef4d49cf59dfe8f.png",
+    "static/media/Capture d’écran (256).png": "/portfolio/static/media/Capture d’écran (256).3b95607a0c6b414bebea.png",
+    "static/media/Capture d’écran (254).png": "/portfolio/static/media/Capture d’écran (254).97f40b0d758562ecb4c0.png",
     "static/media/profile.png": "/portfolio/static/media/profile.2d7817628f19213a677c.png",
     "static/media/Coursera-html-css-1.png": "/portfolio/static/media/Coursera-html-css-1.89e5e994b8bbc3c56ea5.png",
     "static/media/Coursera-python2.png": "/portfolio/static/media/Coursera-python2.71d12664fd5969f462a3.png",
@@ -53,12 +56,12 @@
     "static/media/bg-header.png": "/portfolio/static/media/bg-header.7731f4f316d2c0995cf5.png",
     "static/media/bg-icon.png": "/portfolio/static/media/bg-icon.a4d2f50fc383e8c7664b.png",
     "index.html": "/portfolio/index.html",
-    "main.59684422.css.map": "/portfolio/static/css/main.59684422.css.map",
-    "main.cb8042b4.js.map": "/portfolio/static/js/main.cb8042b4.js.map",
+    "main.72a2c318.css.map": "/portfolio/static/css/main.72a2c318.css.map",
+    "main.7ba4c08f.js.map": "/portfolio/static/js/main.7ba4c08f.js.map",
     "787.9659f834.chunk.js.map": "/portfolio/static/js/787.9659f834.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59684422.css",
-    "static/js/main.cb8042b4.js"
+    "static/css/main.72a2c318.css",
+    "static/js/main.7ba4c08f.js"
   ]
 }
