@@ -34,71 +34,74 @@ export default function Skils() {
     <div class={`container-xxl py-6 pb-5`} id="skils" ref={skilsRef}>
         <div class={`container `}>
             <div class="row g-5">
-                <div id="skill" class={`col-lg-6 ${display}`}>
-                    <h1 class="display-5 mb-5">Skills & Experience</h1>
-                    <p class="mb-4">I'm a passionate software engineering student based in Morocco. In my second year of studies at IRISI (FST Marrakech), I am focused on honing my skills in full-stack development and exploring various technologies.</p>
-                    <h3 class="mb-4">My Skills</h3>
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="font-weight-bold">HTML/CSS</h6>
-                                    <h6 class="font-weight-bold">95%</h6>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="font-weight-bold">Javascript</h6>
-                                    <h6 class="font-weight-bold">80%</h6>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="font-weight-bold">PHP/Laravel</h6>
-                                    <h6 class="font-weight-bold">85%</h6>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="font-weight-bold">C</h6>
-                                    <h6 class="font-weight-bold">80%</h6>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="font-weight-bold">React JS</h6>
-                                    <h6 class="font-weight-bold">80%</h6>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="font-weight-bold">Java/Springboot</h6>
-                                    <h6 class="font-weight-bold">85%</h6>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div id="skill" class={`col-lg-6 ${display}`}>
+    <h1 class="display-5 mb-5">Skills & Experience</h1>
+    <p class="mb-4">
+        I'm a passionate DevOps and cloud engineer based in Morocco. Currently in my final year of studies at IRISI (FST Marrakech), I’ve expanded my expertise from full-stack development to infrastructure automation, cloud architecture, and DevOps practices.
+    </p>
+    <h3 class="mb-4">My Skills</h3>
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <div class="skill mb-4">
+                <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">AWS Cloud</h6>
+                    <h6 class="font-weight-bold">90%</h6>
                 </div>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="skill mb-4">
+                <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Docker</h6>
+                    <h6 class="font-weight-bold">85%</h6>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="skill mb-4">
+                <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">CI/CD</h6>
+                    <h6 class="font-weight-bold">90%</h6>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="skill mb-4">
+                <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Infrastructure as Code (Terraform)</h6>
+                    <h6 class="font-weight-bold">85%</h6>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="skill mb-4">
+                <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">React JS</h6>
+                    <h6 class="font-weight-bold">80%</h6>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="skill mb-4">
+                <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Java/Springboot</h6>
+                    <h6 class="font-weight-bold">85%</h6>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
                 <div id="formations"class={`col-lg-6 ${display}`} style={{transitionDelay: '0.5s, 0.5s'}}>
                     <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
                         <li class="nav-item w-50">

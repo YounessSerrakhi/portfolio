@@ -3,12 +3,13 @@ import React, {useEffect, useState} from 'react'
 
 export default function Home() {
 
-    const targetText = [
-        'Software engineer',
-        'Full-stack Developer (React/Springboot)',
-        'Full-stack Developer (React/Laravel)',
-        'Apps Developer',
-      ];
+  const targetText = [
+    'Cloud Engineer',
+    'DevOps Engineer',
+    'Infrastructure Automation Specialist',
+    'Software Engineer (Full-stack)',
+];
+
     
       const [currentText, setCurrentText] = useState('');
       const [currentIndex, setCurrentIndex] = useState(0);
