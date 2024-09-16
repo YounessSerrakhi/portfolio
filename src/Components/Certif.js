@@ -23,6 +23,12 @@ export default function Certif() {
       }, []);
 
       const certificationData = [
+        {
+          title: 'Utilisez Spring Data pour interagir avec vos bases de données',
+          skils:'Spring boot -  Spring Data - Spring Data Jpa - JDBC - three-tier architecture - Entities - Repository Interface pattern - Transactions',
+          imageUrl: require('../Assets/certif/open spring data jpa.png'),
+          externalLink: 'https://openclassrooms.com/fr/course-certificates/7026173041',
+        },
           {
             title: 'Create Web Applications Efficiently With the Spring Boot MVC Framework',
             skils:'Spring boot - Thymeleaf template - field valiation - cross-field & cross-record validations - three-tier architecture - spring beans - logs - Spring Actuator',

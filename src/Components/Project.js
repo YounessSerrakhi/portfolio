@@ -32,6 +32,14 @@ export default function Project() {
         imagesUrl: [require('../Assets/img/chatbot/Capture d’écran (254).png'), require('../Assets/img/chatbot/Capture d’écran (255).png'), require('../Assets/img/chatbot/Capture d’écran (256).png')],
         githubLink: 'https://github.com/YounessSerrakhi/irisi-chatbot',
     },
+    {
+        title: 'AR android application',
+        description: 'Le projet ARDeco vise à créer une application mobile utilisant la réalité augmentée (AR) pour mettre en valeur des produits traditionnels marocains, modélisés en 3D grâce au logiciel Blender. L\'objectif principal est de simplifier le processus de la décoration traditionnel en permettant aux utilisateurs de visualiser virtuellement des produits dans leur espace réel.',
+        tools: 'Java - Android - IDE Android Studio - ARCore(Google) - openGl(2D/3D) - Blender - FireBase - Git - GitHub',
+        imagesUrl: [require('../Assets/img/ArDeco/ardeco.png'), require('../Assets/img/ArDeco/1.jpg'),require('../Assets/img/ArDeco/2.jpg'), require('../Assets/img/ArDeco/2.jpg'), require('../Assets/img/ArDeco/3.jpg'), require('../Assets/img/ArDeco/4.jpg'), require('../Assets/img/ArDeco/5.jpg')],
+        githubLink: 'https://github.com/YounessSerrakhi/ArDeco',
+    },
+    
 ];
 
 
