@@ -1,19 +1,19 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 
-const ImageModal = ({ images, title, description, tools, onClose, initialIndex }) => {
+const ImageModal = ({ images, title, description, tools, onClose, initialIndex, onNextProject, onPrevProject }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(initialIndex);
 
-  const nextImage = (e) => {
+  const nextImage = useCallback((e) => {
     e.stopPropagation();
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
+  }, [images.length]);
 
-  const prevImage = (e) => {
+  const prevImage = useCallback((e) => {
     e.stopPropagation();
     setCurrentImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
-  };
+  }, [images.length]);
 
-  const handleKeyboardEvents = (e) => {
+  const handleKeyboardEvents = useCallback((e) => {
     switch (e.key) {
       case 'ArrowLeft':
         prevImage(e);
@@ -27,14 +27,14 @@ const ImageModal = ({ images, title, description, tools, onClose, initialIndex }
       default:
         break;
     }
-  };
+  }, [prevImage, nextImage, onClose]);
 
   useEffect(() => {
     window.addEventListener('keydown', handleKeyboardEvents);
     return () => {
       window.removeEventListener('keydown', handleKeyboardEvents);
     };
-  }, []);
+  }, [handleKeyboardEvents]);
 
   return (
     <div className="modal fade show" style={{ display: 'block' }} onClick={onClose}>
@@ -45,13 +45,15 @@ const ImageModal = ({ images, title, description, tools, onClose, initialIndex }
             <button type="button" className="btn-close" aria-label="Close" onClick={onClose}></button>
           </div>
           <div className="modal-body" style={{ maxHeight: '80vh', overflowY: 'auto' }}>
-            <div className="image-container" style={{ height: '50vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div className="image-container" style={{ height: '50vh', position: 'relative' }}>
               <img 
                 src={images[currentImageIndex]} 
-                alt={`Project Image ${currentImageIndex + 1}`} 
+                alt={title} // Updated alt text
                 className="img-fluid" 
                 style={{ maxHeight: '100%', maxWidth: '100%', objectFit: 'contain' }} 
               />
+              <button className="btn btn-light btn-prev" onClick={prevImage}>&lt;</button>
+              <button className="btn btn-light btn-next" onClick={nextImage}>&gt;</button>
             </div>
             <div className="project-details mt-4">
               <h4>Description:</h4>
@@ -61,11 +63,11 @@ const ImageModal = ({ images, title, description, tools, onClose, initialIndex }
             </div>
           </div>
           <div className="modal-footer">
-            <button type="button" className="btn btn-secondary" onClick={prevImage}>
-              Previous
+            <button type="button" className="btn btn-secondary" onClick={onPrevProject}>
+              Previous Project
             </button>
-            <button type="button" className="btn btn-secondary" onClick={nextImage}>
-              Next
+            <button type="button" className="btn btn-secondary" onClick={onNextProject}>
+              Next Project
             </button>
           </div>
         </div>

@@ -56,12 +56,12 @@ const Contact = () => {
       <div className="container py-5">
         <div className={`row g-5 mb-5 ${display}`}>
           <div className="col-lg-6">
-            <h1 className="display-5 mb-0">Let's Work Together</h1>
+            <h1 className="display-5 mb-0">Let's get in touch!</h1>
           </div>
           <div className="col-lg-6 text-lg-end">
-            <a className="btn btn-primar100 y py-3 px-5" href="">
+            <p className="btn btn-primar100 y py-3 px-5">
               Say Hello
-            </a>
+            </p>
           </div>
         </div>
         <div className="row g-5">

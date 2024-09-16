@@ -233,6 +233,46 @@
   opacity: 1;
 }
 
+/* Modal styles */
+.modal-body {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.image-container {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.image-container img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+
 /* Buttons */
 .btn-lg-square {
   border-radius: 50%;
@@ -268,29 +308,55 @@
   opacity: 1;
 }
 
-/* Modal styles */
-.modal-body {
-  max-height: 80vh;
-  overflow-y: auto;
-}
 
-.image-container {
-  height: 50vh;
+
+/* Modal Navigation Buttons */
+.btn-prev, .btn-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 1000;
+  transition: background 0.3s;
 }
 
-.image-container img {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
+.btn-prev {
+  left: 10px;
 }
 
-.project-details {
-  padding: 20px;
+.btn-next {
+  right: 10px;
 }
+
+.btn-prev:hover, .btn-next:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Buttons for project navigation */
+.modal-footer .btn-secondary {
+  background: #f1c40f;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.modal-footer .btn-secondary:hover {
+  background: #e0b900;
+}
+
 
 
 /*** Team ***/
